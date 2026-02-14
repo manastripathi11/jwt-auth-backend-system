@@ -167,15 +167,15 @@ Security Considerations:
 ## Environment Variables Required
 
 Create a `.env` file with:
-PORT=
-MONGODB_URI=
-ACCESS_TOKEN_SECRET=
-ACCESS_TOKEN_EXPIRY=
-REFRESH_TOKEN_SECRET=
-REFRESH_TOKEN_EXPIRY=
-CLOUDINARY_CLOUD_NAME=
-CLOUDINARY_API_KEY=
-CLOUDINARY_API_SECRET=
+- PORT
+- MONGODB_URI
+- ACCESS_TOKEN_SECRET
+- ACCESS_TOKEN_EXPIRY
+- REFRESH_TOKEN_SECRET
+- REFRESH_TOKEN_EXPIRY
+- CLOUDINARY_CLOUD_NAME
+- CLOUDINARY_API_KEY
+- CLOUDINARY_API_SECRET
 
 ## Running the Project
 
@@ -185,3 +185,12 @@ Start development server:
 npm run dev
 
 This project is built as a backend engineering portfolio project focusing on production-ready patterns rather than minimal tutorial-level implementation.
+
+## Future Improvements
+
+- Rate limiting
+- Request validation layer
+- Docker containerization
+- CI/CD integration
+- Role-based access control
+- Unit and integration testing
